@@ -4,6 +4,7 @@ import Header from './Header';
 import { use, useState } from 'react';
 import Fam from './fam';
 import Inputs from './inputs';
+import List from './list';
 
 // This is a React component called "Name" that returns a paragraph element with the text "Dahir".
 //props is an object that contains the properties passed to the component. In this case, it has a property called "name" that is being used to display the name in the paragraph element.
@@ -42,6 +43,7 @@ function App() {
       ) } 
       <button onClick={toggleShowName} className='btn'>{showName ? "Hide Names" : "Show Names"}</button>
       <Inputs />
+      <List />
       </div>
 
       
